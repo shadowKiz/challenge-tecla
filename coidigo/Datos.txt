@@ -1,0 +1,670 @@
+package newpackage;
+
+
+public class Datos extends javax.swing.JFrame {
+
+    Preciokw preciokw = new Preciokw();
+    Zonaagregado zona = new Zonaagregado();
+
+    public Datos() {
+        initComponents();
+    }
+
+  
+    @SuppressWarnings("unchecked")
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
+    private void initComponents() {
+
+        jColorChooser1 = new javax.swing.JColorChooser();
+        lnummedidor = new javax.swing.JLabel();
+        lactual = new javax.swing.JLabel();
+        lanterior = new javax.swing.JLabel();
+        costototal = new javax.swing.JLabel();
+        zonagregadp = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+        jSeparator1 = new javax.swing.JSeparator();
+        jSeparator2 = new javax.swing.JSeparator();
+        jSeparator3 = new javax.swing.JSeparator();
+        jLabel9 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
+        jSeparator4 = new javax.swing.JSeparator();
+        jLabel12 = new javax.swing.JLabel();
+        jLabel13 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
+        jSeparator5 = new javax.swing.JSeparator();
+        jLabel15 = new javax.swing.JLabel();
+        jLabel16 = new javax.swing.JLabel();
+        jSeparator6 = new javax.swing.JSeparator();
+        jLabel17 = new javax.swing.JLabel();
+        jLabel18 = new javax.swing.JLabel();
+        jSeparator7 = new javax.swing.JSeparator();
+        jLabel19 = new javax.swing.JLabel();
+        jLabel20 = new javax.swing.JLabel();
+        jSeparator8 = new javax.swing.JSeparator();
+        jLabel21 = new javax.swing.JLabel();
+        jLabel23 = new javax.swing.JLabel();
+        jLabel24 = new javax.swing.JLabel();
+        jSeparator9 = new javax.swing.JSeparator();
+        jLabel25 = new javax.swing.JLabel();
+        jLabel27 = new javax.swing.JLabel();
+        jLabel28 = new javax.swing.JLabel();
+        jSeparator10 = new javax.swing.JSeparator();
+        jSeparator11 = new javax.swing.JSeparator();
+        jLabel29 = new javax.swing.JLabel();
+        jLabel30 = new javax.swing.JLabel();
+        jLabel31 = new javax.swing.JLabel();
+        jLabel32 = new javax.swing.JLabel();
+        jLabel33 = new javax.swing.JLabel();
+        jSeparator12 = new javax.swing.JSeparator();
+        jLabel34 = new javax.swing.JLabel();
+        jLabel35 = new javax.swing.JLabel();
+        jLabel36 = new javax.swing.JLabel();
+        jLabel37 = new javax.swing.JLabel();
+        jLabel38 = new javax.swing.JLabel();
+        jLabel39 = new javax.swing.JLabel();
+        jLabel40 = new javax.swing.JLabel();
+        jLabel41 = new javax.swing.JLabel();
+        jLabel42 = new javax.swing.JLabel();
+        jLabel43 = new javax.swing.JLabel();
+        limportekw1 = new javax.swing.JLabel();
+        costototal1 = new javax.swing.JLabel();
+        costototal2 = new javax.swing.JLabel();
+        zonagregadp1 = new javax.swing.JLabel();
+        zonagregadp2 = new javax.swing.JLabel();
+        zonagregadp3 = new javax.swing.JLabel();
+        zonagregadp4 = new javax.swing.JLabel();
+        zonagregadp5 = new javax.swing.JLabel();
+        zonagregadp6 = new javax.swing.JLabel();
+        zonagregadp7 = new javax.swing.JLabel();
+        zonagregadp8 = new javax.swing.JLabel();
+        zonagregadp9 = new javax.swing.JLabel();
+        zonagregadp10 = new javax.swing.JLabel();
+        zonagregadp11 = new javax.swing.JLabel();
+        zonagregadp12 = new javax.swing.JLabel();
+        zonagregadp13 = new javax.swing.JLabel();
+        zonagregadp14 = new javax.swing.JLabel();
+        jLabel22 = new javax.swing.JLabel();
+        jSeparator13 = new javax.swing.JSeparator();
+        totalrecaudado = new javax.swing.JLabel();
+        jSeparator14 = new javax.swing.JSeparator();
+        totalrecaudado3 = new javax.swing.JLabel();
+        totalrecaudado2 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
+        jLabel6 = new javax.swing.JLabel();
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setPreferredSize(new java.awt.Dimension(1350, 900));
+        addWindowListener(new java.awt.event.WindowAdapter() {
+            public void windowActivated(java.awt.event.WindowEvent evt) {
+                formWindowActivated(evt);
+            }
+        });
+        getContentPane().setLayout(null);
+
+        lnummedidor.setBackground(new java.awt.Color(255, 255, 255));
+        lnummedidor.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        lnummedidor.setForeground(new java.awt.Color(255, 255, 255));
+        lnummedidor.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        lnummedidor.setToolTipText("");
+        getContentPane().add(lnummedidor);
+        lnummedidor.setBounds(170, 80, 50, 30);
+
+        lactual.setBackground(new java.awt.Color(255, 255, 255));
+        lactual.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        lactual.setForeground(new java.awt.Color(255, 255, 255));
+        lactual.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        getContentPane().add(lactual);
+        lactual.setBounds(140, 120, 40, 20);
+
+        lanterior.setBackground(new java.awt.Color(255, 255, 255));
+        lanterior.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        lanterior.setForeground(new java.awt.Color(255, 255, 255));
+        lanterior.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        getContentPane().add(lanterior);
+        lanterior.setBounds(140, 150, 40, 20);
+
+        costototal.setBackground(new java.awt.Color(255, 255, 255));
+        costototal.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        costototal.setForeground(new java.awt.Color(255, 255, 255));
+        costototal.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        costototal.setText("0");
+        getContentPane().add(costototal);
+        costototal.setBounds(180, 370, 42, 14);
+
+        zonagregadp.setBackground(new java.awt.Color(255, 255, 255));
+        zonagregadp.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        zonagregadp.setForeground(new java.awt.Color(255, 255, 255));
+        getContentPane().add(zonagregadp);
+        zonagregadp.setBounds(410, 370, 40, 20);
+
+        jLabel1.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setText("Numero de medidor es :");
+        getContentPane().add(jLabel1);
+        jLabel1.setBounds(10, 88, 170, 17);
+
+        jLabel2.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setText("Estado Actual:");
+        getContentPane().add(jLabel2);
+        jLabel2.setBounds(10, 120, 120, 17);
+
+        jLabel3.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel3.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel3.setText("Estado Anterior:");
+        getContentPane().add(jLabel3);
+        jLabel3.setBounds(10, 152, 130, 17);
+
+        jLabel4.setFont(new java.awt.Font("Bodoni MT Black", 0, 48)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel4.setText("Listado de Informacion");
+        getContentPane().add(jLabel4);
+        jLabel4.setBounds(0, 0, 1430, 60);
+
+        jLabel5.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel5.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel5.setText("Categoria Servico Particular");
+        getContentPane().add(jLabel5);
+        jLabel5.setBounds(20, 270, 180, 17);
+
+        jLabel7.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel7.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel7.setText("Importe total a cobrar por kw : ");
+        getContentPane().add(jLabel7);
+        jLabel7.setBounds(20, 230, 210, 17);
+
+        jLabel8.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel8.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel8.setText("Costo total por Kw es de :");
+        getContentPane().add(jLabel8);
+        jLabel8.setBounds(20, 370, 180, 17);
+        getContentPane().add(jSeparator1);
+        jSeparator1.setBounds(10, 690, 1290, 10);
+
+        jSeparator2.setOrientation(javax.swing.SwingConstants.VERTICAL);
+        getContentPane().add(jSeparator2);
+        jSeparator2.setBounds(10, 200, 20, 490);
+        getContentPane().add(jSeparator3);
+        jSeparator3.setBounds(10, 200, 1290, 10);
+
+        jLabel9.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel9.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel9.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel9.setText("Zona 1");
+        getContentPane().add(jLabel9);
+        jLabel9.setBounds(290, 220, 160, 17);
+
+        jLabel11.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel11.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel11.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel11.setText("Costo por Kw es de :0.25");
+        getContentPane().add(jLabel11);
+        jLabel11.setBounds(20, 320, 180, 20);
+
+        jSeparator4.setOrientation(javax.swing.SwingConstants.VERTICAL);
+        getContentPane().add(jSeparator4);
+        jSeparator4.setBounds(1300, 200, 10, 490);
+
+        jLabel12.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel12.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel12.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel12.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel12.setText("Zona 2");
+        getContentPane().add(jLabel12);
+        jLabel12.setBounds(480, 220, 160, 17);
+
+        jLabel13.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel13.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel13.setText("Condicional por zona es de :8");
+        getContentPane().add(jLabel13);
+        jLabel13.setBounds(470, 250, 170, 15);
+
+        jLabel14.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel14.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel14.setText("Total recaudado");
+        getContentPane().add(jLabel14);
+        jLabel14.setBounds(1190, 230, 110, 17);
+
+        jSeparator5.setOrientation(javax.swing.SwingConstants.VERTICAL);
+        getContentPane().add(jSeparator5);
+        jSeparator5.setBounds(460, 200, 10, 490);
+
+        jLabel15.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel15.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel15.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel15.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel15.setText("Zona 3");
+        getContentPane().add(jLabel15);
+        jLabel15.setBounds(650, 220, 160, 17);
+
+        jLabel16.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel16.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel16.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel16.setText("Condicional por zona es de :11");
+        getContentPane().add(jLabel16);
+        jLabel16.setBounds(650, 250, 170, 15);
+
+        jSeparator6.setOrientation(javax.swing.SwingConstants.VERTICAL);
+        getContentPane().add(jSeparator6);
+        jSeparator6.setBounds(640, 200, 10, 490);
+
+        jLabel17.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel17.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel17.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel17.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel17.setText("Zona 4");
+        getContentPane().add(jLabel17);
+        jLabel17.setBounds(830, 220, 170, 17);
+
+        jLabel18.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel18.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel18.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel18.setText("Condicional por zona es de :11");
+        getContentPane().add(jLabel18);
+        jLabel18.setBounds(830, 250, 170, 15);
+
+        jSeparator7.setOrientation(javax.swing.SwingConstants.VERTICAL);
+        getContentPane().add(jSeparator7);
+        jSeparator7.setBounds(820, 200, 10, 490);
+
+        jLabel19.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel19.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel19.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel19.setText("Zona 5");
+        getContentPane().add(jLabel19);
+        jLabel19.setBounds(1010, 220, 160, 17);
+
+        jLabel20.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel20.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel20.setText("Condicional por zona es de :15");
+        getContentPane().add(jLabel20);
+        jLabel20.setBounds(1010, 250, 170, 15);
+
+        jSeparator8.setOrientation(javax.swing.SwingConstants.VERTICAL);
+        getContentPane().add(jSeparator8);
+        jSeparator8.setBounds(1000, 200, 10, 490);
+
+        jLabel21.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel21.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel21.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel21.setText("Categoria Servico Comercial");
+        getContentPane().add(jLabel21);
+        jLabel21.setBounds(20, 400, 180, 17);
+
+        jLabel23.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel23.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel23.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel23.setText("Costo total por Kw es de :");
+        getContentPane().add(jLabel23);
+        jLabel23.setBounds(20, 510, 180, 17);
+
+        jLabel24.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel24.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel24.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel24.setText("Costo por Kw es de :0.43");
+        getContentPane().add(jLabel24);
+        jLabel24.setBounds(20, 450, 180, 20);
+        getContentPane().add(jSeparator9);
+        jSeparator9.setBounds(10, 270, 1290, 10);
+
+        jLabel25.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel25.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel25.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel25.setText("Categoria Servico Indutrial");
+        getContentPane().add(jLabel25);
+        jLabel25.setBounds(20, 560, 180, 17);
+
+        jLabel27.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel27.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel27.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel27.setText("Costo total por Kw es de :");
+        getContentPane().add(jLabel27);
+        jLabel27.setBounds(20, 670, 180, 17);
+
+        jLabel28.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel28.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel28.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel28.setText("Costo por Kw es de :1.85");
+        getContentPane().add(jLabel28);
+        jLabel28.setBounds(20, 610, 180, 20);
+        getContentPane().add(jSeparator10);
+        jSeparator10.setBounds(20, 550, 1280, 10);
+        getContentPane().add(jSeparator11);
+        jSeparator11.setBounds(20, 390, 1280, 10);
+
+        jLabel29.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel29.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel29.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel29.setText("Total a Pagar:");
+        getContentPane().add(jLabel29);
+        jLabel29.setBounds(470, 530, 100, 17);
+
+        jLabel30.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel30.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel30.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel30.setText("Total a Pagar:");
+        getContentPane().add(jLabel30);
+        jLabel30.setBounds(470, 370, 100, 17);
+
+        jLabel31.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel31.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel31.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel31.setText("Total a Pagar:");
+        getContentPane().add(jLabel31);
+        jLabel31.setBounds(650, 370, 100, 17);
+
+        jLabel32.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel32.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel32.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel32.setText("Total a Pagar:");
+        getContentPane().add(jLabel32);
+        jLabel32.setBounds(830, 370, 100, 17);
+
+        jLabel33.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel33.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel33.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel33.setText("Condicional por zona es de :12");
+        getContentPane().add(jLabel33);
+        jLabel33.setBounds(290, 250, 180, 15);
+
+        jSeparator12.setOrientation(javax.swing.SwingConstants.VERTICAL);
+        getContentPane().add(jSeparator12);
+        jSeparator12.setBounds(280, 200, 10, 490);
+
+        jLabel34.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel34.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel34.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel34.setText("Total a Pagar:");
+        getContentPane().add(jLabel34);
+        jLabel34.setBounds(290, 370, 100, 17);
+
+        jLabel35.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel35.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel35.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel35.setText("Total a Pagar:");
+        getContentPane().add(jLabel35);
+        jLabel35.setBounds(290, 530, 100, 17);
+
+        jLabel36.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel36.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel36.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel36.setText("Total a Pagar:");
+        getContentPane().add(jLabel36);
+        jLabel36.setBounds(290, 670, 100, 17);
+
+        jLabel37.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel37.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel37.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel37.setText("Total a Pagar:");
+        getContentPane().add(jLabel37);
+        jLabel37.setBounds(470, 670, 100, 17);
+
+        jLabel38.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel38.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel38.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel38.setText("Total a Pagar:");
+        getContentPane().add(jLabel38);
+        jLabel38.setBounds(650, 670, 100, 17);
+
+        jLabel39.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel39.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel39.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel39.setText("Total a Pagar:");
+        getContentPane().add(jLabel39);
+        jLabel39.setBounds(830, 670, 100, 17);
+
+        jLabel40.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel40.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel40.setText("Total a Pagar:");
+        getContentPane().add(jLabel40);
+        jLabel40.setBounds(1010, 670, 100, 17);
+
+        jLabel41.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel41.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel41.setText("Total a Pagar:");
+        getContentPane().add(jLabel41);
+        jLabel41.setBounds(1010, 530, 100, 17);
+
+        jLabel42.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel42.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel42.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel42.setText("Total a Pagar:");
+        getContentPane().add(jLabel42);
+        jLabel42.setBounds(830, 530, 100, 17);
+
+        jLabel43.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel43.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel43.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel43.setText("Total a Pagar:");
+        getContentPane().add(jLabel43);
+        jLabel43.setBounds(650, 530, 100, 17);
+
+        limportekw1.setBackground(new java.awt.Color(255, 255, 255));
+        limportekw1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        limportekw1.setForeground(new java.awt.Color(255, 255, 255));
+        limportekw1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        limportekw1.setText("0");
+        limportekw1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        getContentPane().add(limportekw1);
+        limportekw1.setBounds(220, 230, 70, 17);
+
+        costototal1.setBackground(new java.awt.Color(255, 255, 255));
+        costototal1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        costototal1.setForeground(new java.awt.Color(255, 255, 255));
+        costototal1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        costototal1.setText("0");
+        getContentPane().add(costototal1);
+        costototal1.setBounds(180, 510, 42, 14);
+
+        costototal2.setBackground(new java.awt.Color(255, 255, 255));
+        costototal2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        costototal2.setForeground(new java.awt.Color(255, 255, 255));
+        costototal2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        costototal2.setText("0");
+        getContentPane().add(costototal2);
+        costototal2.setBounds(180, 670, 70, 14);
+
+        zonagregadp1.setBackground(new java.awt.Color(255, 255, 255));
+        zonagregadp1.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        zonagregadp1.setForeground(new java.awt.Color(255, 255, 255));
+        getContentPane().add(zonagregadp1);
+        zonagregadp1.setBounds(590, 370, 40, 20);
+
+        zonagregadp2.setBackground(new java.awt.Color(255, 255, 255));
+        zonagregadp2.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        zonagregadp2.setForeground(new java.awt.Color(255, 255, 255));
+        getContentPane().add(zonagregadp2);
+        zonagregadp2.setBounds(750, 370, 40, 20);
+
+        zonagregadp3.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        zonagregadp3.setForeground(new java.awt.Color(255, 255, 255));
+        getContentPane().add(zonagregadp3);
+        zonagregadp3.setBounds(930, 370, 40, 20);
+
+        zonagregadp4.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        zonagregadp4.setForeground(new java.awt.Color(255, 255, 255));
+        getContentPane().add(zonagregadp4);
+        zonagregadp4.setBounds(1110, 370, 40, 20);
+
+        zonagregadp5.setBackground(new java.awt.Color(255, 255, 255));
+        zonagregadp5.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        zonagregadp5.setForeground(new java.awt.Color(255, 255, 255));
+        getContentPane().add(zonagregadp5);
+        zonagregadp5.setBounds(410, 530, 40, 20);
+
+        zonagregadp6.setBackground(new java.awt.Color(255, 255, 255));
+        zonagregadp6.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        zonagregadp6.setForeground(new java.awt.Color(255, 255, 255));
+        getContentPane().add(zonagregadp6);
+        zonagregadp6.setBounds(590, 530, 40, 20);
+
+        zonagregadp7.setBackground(new java.awt.Color(255, 255, 255));
+        zonagregadp7.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        zonagregadp7.setForeground(new java.awt.Color(255, 255, 255));
+        getContentPane().add(zonagregadp7);
+        zonagregadp7.setBounds(750, 530, 40, 20);
+
+        zonagregadp8.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        zonagregadp8.setForeground(new java.awt.Color(255, 255, 255));
+        getContentPane().add(zonagregadp8);
+        zonagregadp8.setBounds(940, 530, 40, 20);
+
+        zonagregadp9.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        zonagregadp9.setForeground(new java.awt.Color(255, 255, 255));
+        getContentPane().add(zonagregadp9);
+        zonagregadp9.setBounds(1110, 530, 40, 20);
+
+        zonagregadp10.setBackground(new java.awt.Color(255, 255, 255));
+        zonagregadp10.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        zonagregadp10.setForeground(new java.awt.Color(255, 255, 255));
+        getContentPane().add(zonagregadp10);
+        zonagregadp10.setBounds(410, 670, 40, 20);
+
+        zonagregadp11.setBackground(new java.awt.Color(255, 255, 255));
+        zonagregadp11.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        zonagregadp11.setForeground(new java.awt.Color(255, 255, 255));
+        getContentPane().add(zonagregadp11);
+        zonagregadp11.setBounds(590, 670, 40, 20);
+
+        zonagregadp12.setBackground(new java.awt.Color(255, 255, 255));
+        zonagregadp12.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        zonagregadp12.setForeground(new java.awt.Color(255, 255, 255));
+        getContentPane().add(zonagregadp12);
+        zonagregadp12.setBounds(750, 670, 40, 20);
+
+        zonagregadp13.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        zonagregadp13.setForeground(new java.awt.Color(255, 255, 255));
+        getContentPane().add(zonagregadp13);
+        zonagregadp13.setBounds(940, 670, 40, 20);
+
+        zonagregadp14.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        zonagregadp14.setForeground(new java.awt.Color(255, 255, 255));
+        getContentPane().add(zonagregadp14);
+        zonagregadp14.setBounds(1110, 670, 40, 20);
+
+        jLabel22.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel22.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel22.setText("Total a Pagar:");
+        getContentPane().add(jLabel22);
+        jLabel22.setBounds(1010, 370, 100, 17);
+
+        jSeparator13.setOrientation(javax.swing.SwingConstants.VERTICAL);
+        getContentPane().add(jSeparator13);
+        jSeparator13.setBounds(1180, 200, 10, 490);
+
+        totalrecaudado.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        totalrecaudado.setForeground(new java.awt.Color(255, 255, 255));
+        totalrecaudado.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        getContentPane().add(totalrecaudado);
+        totalrecaudado.setBounds(1190, 320, 100, 20);
+
+        jSeparator14.setBackground(new java.awt.Color(0, 0, 0));
+        jSeparator14.setOrientation(javax.swing.SwingConstants.VERTICAL);
+        getContentPane().add(jSeparator14);
+        jSeparator14.setBounds(1300, 200, 10, 490);
+
+        totalrecaudado3.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        totalrecaudado3.setForeground(new java.awt.Color(255, 255, 255));
+        totalrecaudado3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        getContentPane().add(totalrecaudado3);
+        totalrecaudado3.setBounds(1190, 620, 100, 20);
+
+        totalrecaudado2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        totalrecaudado2.setForeground(new java.awt.Color(255, 255, 255));
+        totalrecaudado2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        getContentPane().add(totalrecaudado2);
+        totalrecaudado2.setBounds(1190, 460, 100, 20);
+
+        jButton1.setText("Regresar");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton1);
+        jButton1.setBounds(1180, 90, 120, 50);
+
+        jLabel6.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/31951.jpg"))); // NOI18N
+        jLabel6.setText("jLabel6");
+        getContentPane().add(jLabel6);
+        jLabel6.setBounds(0, 0, 1440, 690);
+
+        pack();
+    }// </editor-fold>                        
+
+    String nummedidor, actual, anterior;
+
+    private void formWindowActivated(java.awt.event.WindowEvent evt) {                                     
+
+        lnummedidor.setText(nummedidor);
+        lactual.setText(actual);
+        lanterior.setText(anterior);
+
+        double medidor = Double.parseDouble(nummedidor);
+        double estadoac = Double.parseDouble(actual);
+        double estadoan = Double.parseDouble(anterior);
+
+        //importe total de kw estadoac -estadoan
+        preciokw.consumo(estadoac, estadoan);
+        limportekw1.setText(String.valueOf(preciokw.resconsumokw));
+
+        //costo total de kw
+        preciokw.tablakw();
+        costototal.setText(String.valueOf(preciokw.consumototalkw));
+
+        preciokw.tablakw2();
+        costototal1.setText(String.valueOf(preciokw.consumototalkw2));
+
+        preciokw.tablakw3();
+        costototal2.setText(String.valueOf(preciokw.consumototalkw3));
+
+        //total apagar
+        zona.agregadozona(preciokw.resconsumokw, preciokw.consumototalkw);
+        zonagregadp.setText(String.valueOf(zona.totalzona));
+        zonagregadp1.setText(String.valueOf(zona.totalfactura2));
+        zonagregadp2.setText(String.valueOf(zona.totalfactura3));
+        zonagregadp3.setText(String.valueOf(zona.totalfactura4));
+        zonagregadp4.setText(String.valueOf(zona.totalfactura5));
+        totalrecaudado.setText(String.valueOf(zona.totalrecaudadoz2));
+        
+        zona.agregadozona2(preciokw.resconsumokw,preciokw.consumototalkw2);
+        zonagregadp5.setText(String.valueOf(zona.totalfactura1z2));
+        zonagregadp6.setText(String.valueOf(zona.totalfactura1z3));
+        zonagregadp7.setText(String.valueOf(zona.totalfactura1z4));
+        zonagregadp8.setText(String.valueOf(zona.totalfactura1z5));
+        zonagregadp9.setText(String.valueOf(zona.totalfactura1z6));
+        totalrecaudado2.setText(String.valueOf(zona.totalrecaudadoz2));
+        
+        zona.agregadozona3(preciokw.resconsumokw, preciokw.consumototalkw3);
+        zonagregadp10.setText(String.valueOf(zona.totalfactura1x3));
+        zonagregadp11.setText(String.valueOf(zona.totalfactura2x3));
+        zonagregadp12.setText(String.valueOf(zona.totalfactura3x3));
+        zonagregadp13.setText(String.valueOf(zona.totalfactura4x3));
+        zonagregadp14.setText(String.valueOf(zona.totalfactura5x3));
+        totalrecaudado3.setText(String.valueOf(zona.totalrecaudadox3));
+        
+
+    }                                    
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    Controlmedidores regreso = new Controlmedidores();
+     regreso.setVisible(true);
+            this.dispose();
+    }                                        

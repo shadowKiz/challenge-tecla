@@ -1,0 +1,57 @@
+package newpackage;
+
+public class Zonaagregado {
+
+    public double totalzona, totalfactura2, totalfactura3, totalfactura4, totalfactura5, totalrecaudadoz2,
+            totalfactura1z2, totalfactura1z3, totalfactura1z4, totalfactura1z5, totalfactura1z6,
+            totalfactura1x3, totalfactura2x3, totalfactura3x3, totalfactura4x3, totalfactura5x3, totalrecaudadox3;
+
+    public void agregadozona(double resconsumokw, double consumototalkw) {
+        Preciokw preciokw = new Preciokw();
+
+        totalzona = (consumototalkw + 12 + resconsumokw);
+
+        totalfactura2 = (consumototalkw + 8 + resconsumokw);
+
+        totalfactura3 = (consumototalkw + 11 + resconsumokw);
+
+        totalfactura4 = (consumototalkw + 9 + resconsumokw);
+
+        totalfactura5 = (consumototalkw + 15 + resconsumokw);
+
+        totalrecaudadoz2 = (totalzona + totalfactura2 + totalfactura3 + totalfactura4 + totalfactura5);
+
+    }
+
+    public void agregadozona2(double consumototalkw1, double resconsumokw) {
+        Preciokw preciokw = new Preciokw();
+
+        totalfactura1z2 = (consumototalkw1 + 12 + resconsumokw);
+
+        totalfactura1z3 = (consumototalkw1 + 8 + resconsumokw);
+
+        totalfactura1z4 = (consumototalkw1 + 11 + resconsumokw);
+
+        totalfactura1z5 = (consumototalkw1 + 9 + resconsumokw);
+
+        totalfactura1z6 = (consumototalkw1 + 15 + resconsumokw);
+
+        totalrecaudadoz2 = (totalfactura1z2 + totalfactura1z3+ totalfactura1z4 + totalfactura1z5 + totalfactura1z6);
+    }
+
+    public void agregadozona3(double consumototalkw3, double resconsumokw) {
+        Preciokw kw = new Preciokw();
+
+        totalfactura1x3 = (consumototalkw3 + 12 + resconsumokw);
+
+        totalfactura2x3 = (consumototalkw3 + 8 + resconsumokw);
+
+        totalfactura3x3 = (consumototalkw3 + 11 + resconsumokw);
+
+        totalfactura4x3 = (consumototalkw3 + 9 + resconsumokw);
+
+        totalfactura5x3 = (consumototalkw3 + 15 + resconsumokw);
+
+        totalrecaudadox3 = (totalfactura1x3 + totalfactura2x3 + totalfactura3x3 + totalfactura4x3 + totalfactura5x3);
+    }
+}

@@ -1,0 +1,33 @@
+package newpackage;
+
+public class Preciokw {
+
+    public double resconsumokw;
+    public double consumototalkw,consumototalkw2,consumototalkw3;
+
+    public void consumo(double estadoactual, double estadoanterior) {
+
+        if (estadoactual > 0 && estadoanterior > 0) {
+            resconsumokw = estadoactual - estadoanterior;
+        }
+
+    }
+
+    public void tablakw() {
+
+        consumototalkw = (resconsumokw * 0.25);
+
+    }
+
+    public void tablakw2() {
+
+        consumototalkw2 = (resconsumokw * 0.43);
+
+    }
+
+    public void tablakw3() {
+
+        consumototalkw3 = (resconsumokw * 1.85);
+
+    }
+}
